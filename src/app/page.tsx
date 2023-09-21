@@ -11,7 +11,7 @@ export default async function Home() {
   console.log(dog);
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <Image src={dog.message} alt={dog.message} />
+      <Image src={dog.message} alt={dog.message} width={300} height={300} />
     </main>
   );
 }
